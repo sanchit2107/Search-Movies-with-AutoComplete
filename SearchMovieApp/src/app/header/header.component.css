@@ -3,11 +3,16 @@
   margin-left: 18px;
 }
 
-/* .logo {
+a {
+  color: #333333;
+}
+
+.logo {
   margin-left: 15px;
   font-size: 30px;
   font-weight: bold;
   float: left;
+  text-decoration: none;
 }
 .logo:hover {
   text-decoration: none;
@@ -15,7 +20,7 @@
 .logo i {
   margin-left: 5px;
   color: #e91d00;
-} */
+}
 
 header {
   background: #ffffff;
@@ -55,4 +60,8 @@ header .searchbox-container .form button {
   background: #f8f8f8;
   border-radius: 0;
   margin-left: -1px;
+}
+
+bg-header {
+  background-color: ;
 }
