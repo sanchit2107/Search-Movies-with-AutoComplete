@@ -1,0 +1,58 @@
+.is-logo {
+  float: left;
+  margin-left: 18px;
+}
+
+/* .logo {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+}
+.logo:hover {
+  text-decoration: none;
+}
+.logo i {
+  margin-left: 5px;
+  color: #e91d00;
+} */
+
+header {
+  background: #ffffff;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+header .searchbox-container {
+  margin-left: 240px;
+  max-width: 400px;
+}
+header .searchbox-container .root {
+  max-width: inherit;
+}
+header .searchbox-container .input {
+  padding-left: 14px;
+}
+header .searchbox-container .form {
+  display: flex;
+  margin-top: 5px;
+}
+header .searchbox-container .form .form-control {
+  border-radius: 0;
+  padding-bottom: 7px;
+}
+header .searchbox-container .form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+header .searchbox-container .form button {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #f8f8f8;
+  border-radius: 0;
+  margin-left: -1px;
+}
